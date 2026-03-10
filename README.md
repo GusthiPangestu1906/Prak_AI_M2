@@ -4,5 +4,5 @@ Repositori ini berisi penyelesaian tugas praktikum Mata Kuliah Kecerdasan Buatan
 
 ## 📁 Struktur File
 
-* **deteksi_do.pl**: Implementasi Sistem Pakar berbasis aturan (*Rule-Based System*) menggunakan representasi **Frame** untuk mengevaluasi status risiko DO mahasiswa berdasarkan IPK dan kehadiran.
-* **inheritance_frame.pl**: Representasi pengetahuan mengenai hierarki kelas dan objek menggunakan **Frame**, lengkap dengan aturan logika rekursif untuk membuktikan pewarisan sifat (*inheritance*).
+* **A2.pl**: Implementasi Sistem Pakar berbasis aturan (*Rule-Based System*) menggunakan representasi **Frame** untuk mengevaluasi status risiko DO mahasiswa berdasarkan IPK dan kehadiran.
+* **2.pl**: Representasi pengetahuan mengenai hierarki kelas dan objek menggunakan **Frame**, lengkap dengan aturan logika rekursif untuk membuktikan pewarisan sifat (*inheritance*).
