@@ -1,16 +1,16 @@
 % =========================================================
-% 1. FAKTA FRAME (Versi Lebih Manusiawi & Logis)
+% 1. FAKTA FRAME 
 % =========================================================
 
 % Level 1: Makhluk Hidup (Superclass paling atas)
 frame(makhluk_hidup, [
-    has(tulang_belakang)   % Semua makhluk hidup vertebrata punya ini
+    has(tulang_belakang)   
 ]).
 
 % Level 2: Manusia (Subclass dari makhluk hidup)
 frame(manusia, [
     isa(makhluk_hidup),
-    has(akal_budi)         % Atribut khusus manusia
+    has(akal_budi)         
 ]).
 
 % Level 3: Pria (Subclass dari manusia)
@@ -35,7 +35,7 @@ frame(car_01, [
 ]).
 
 % =========================================================
-% 2. RULE PEWARISAN (INHERITANCE) - Tetap sama persis!
+% 2. RULE PEWARISAN (INHERITANCE) 
 % =========================================================
 
 % Rule 1: Cek Kepemilikan Langsung
@@ -43,7 +43,7 @@ memiliki(Objek, Benda) :-
     frame(Objek, DaftarSlot),
     member(has(Benda), DaftarSlot).
 
-% Rule 2: Cek Kepemilikan Turunan (Inheritance lewat 'isa')
+% Rule 2: Cek Kepemilikan Turunan 
 memiliki(Objek, Benda) :-
     frame(Objek, DaftarSlot),
     member(isa(Induk), DaftarSlot), 
